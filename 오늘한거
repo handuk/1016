@@ -105,5 +105,5 @@ http://127.0.0.1:4242/api/query?start=2015/10/14-00:00:00&end=2015/10/14-08:19:4
 Temperature Input Test(Restful 방법)
 
 위에 데이터 입력 코드와 아래 기상청에서 온도 가져오는 코드를 활용하여 openTSDB에 데이터를 입력하세요
-pip install lxml //에러남
+pip install lxml //에러남  yum install python-lxml 로하면됨
 pip install python-devel
